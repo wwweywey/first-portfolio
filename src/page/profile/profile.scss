@@ -1,0 +1,79 @@
+.intro-content {
+  display: flex;
+}
+
+#intro-page {
+  height: 100vh;
+  margin: 0px 20em;
+  position: relative;
+  justify-content: center;
+}
+
+#intro-page h1 {
+  font-size: 158px;
+  font-weight: 100;
+  font-family: "Abril Fatface", cursive;
+  margin: 0;
+}
+
+.intro p {
+  width: 360px;
+  line-height: 34px;
+}
+
+.resume-button {
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.resume-bttn {
+  z-index: 5;
+}
+
+.resume-button,
+.form-submit {
+  display: block;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #fca326;
+  border-radius: 5px;
+  background-color: #0d1017;
+  color: #fca326;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.resume-button:hover,
+.form-submit:hover {
+  background-color: #fca326;
+  color: #0d1017;
+}
+
+.welcome-photo img {
+  height: 100vh;
+}
+
+.mouse-scroll {
+  position: absolute;
+  top: 40em;
+  left: 10em;
+  height: 6em;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,38 @@
+.skill-content,
+.project-content {
+  text-align: center;
+  font-size: 60px;
+}
+
+.project-content h2 {
+  margin-bottom: 0.5em;
+}
+
+#project-page {
+  background-color: #072541;
+  position: relative;
+  height: 70vh;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 50%;
+  position: absolute;
+  gap: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.project {
+  height: 3em;
+  background-color: #afafaf;
+  color: #8b8b8b;
+  text-align: center;
+  border-radius: 5px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
